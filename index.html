@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" 
+    href="https://www.svgrepo.com/show/530646/briefcase.svg" 
+    type="image/svg">
+    <title>SWAPI App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SWAPI Character Search</h1>
+        <input type="number" id="characterId" placeholder="Введите ID персонажа (1-10)">
+        <button id="fetchButton">Получить персонажа</button>
+        <div id="loading" class="hidden">Идёт загрузка...</div>
+        <div id="result" class="result"></div>
+        <div id="error" class="error hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
